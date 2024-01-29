@@ -10,7 +10,6 @@ public class Piece {
         position = null;
     }
 
-    // protecd para não ser acessado por outra camada
     protected Board getBoard() {
         return board;
     }
